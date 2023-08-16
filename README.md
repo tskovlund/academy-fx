@@ -6,34 +6,164 @@ Browse and listen to currently available effects at <https://tskovlund.github.io
 ## TODOs
 The following is a semi-prioritized todo list of sounds to be produced.
 
-- [x] Shuffling of players at login
-- [ ] Game begins
-- [ ] Game finishes
-- [x] A card is drawn
-- [ ] Value of card drawn
-- [ ] All aces have been drawn
-- [ ] Last round begins
-- [ ] Last round intense music (a la Mario Kart)
-- [ ] Login success
-- [ ] Login denied
-- [ ] Change to simple mode (big numbers on card)
-- [ ] Change to advanced mode
-- [ ] Change to dark theme
-- [ ] Change to light theme
-- [ ] Game music/soundscape
-- [ ] Player DNF
-- [ ] Game is terminated before it is finished
-- [ ] New player in first position (crown)
-- [ ] New player in last position (joker hat)
-- [ ] Player turn has taken too long (Press the long key)
-- [ ] Player time exceeds an hour
-- [ ] A round was completed quickly
-- [ ] A round was completed slowly
-- [ ] New lobby music
-- [ ] New chugging music
+- Shuffling of players at login
+  - [x] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Game begins
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Game finishes
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- A card is drawn
+  - [x] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Value of card drawn
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- All aces have been drawn
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Last round begins
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Last round intense music (a la Mario Kart)
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Login success
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Login denied
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Change to simple mode (big numbers on card)
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Change to advanced mode
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Change to dark theme
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Change to light theme
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Game music/soundscape
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Player DNF
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Game is terminated before it is finished
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- New player in first position (crown)
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- New player in last position (joker hat)
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Player turn has taken too long (Press the long key)
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- Player time exceeds an hour
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- A round was completed quickly
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- A round was completed slowly
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- New lobby music
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
+- New chugging music
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
 
 Ideas for easter eggs:
-- [ ] Special anniversary (mod 100) effects.
+- Special anniversary (mod 100) effects.
+  - [ ] Digital
+  - [ ] Analogue
+  - [ ] Fun
+  - [ ] Legacy
+  - [ ] Old
 
 ## Ideas for implementation
 - Several sound packages to accommodate player preferences.
