@@ -3,7 +3,7 @@
 ## TODOs
 The following is a semi-prioritized todo list of sounds to be produced for the [new front-end implementation](https://github.com/beeracademy/beta-game) of the [Academy](https://academy.beer) game.
 
-- [ ] Shuffling of players at login
+- [x] Shuffling of players at login
 - [ ] Game begins
 - [ ] Game finishes
 - [ ] A card is drawn (maybe an effect per card value)
