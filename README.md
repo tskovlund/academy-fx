@@ -9,7 +9,8 @@ The following is a semi-prioritized todo list of sounds to be produced.
 - [x] Shuffling of players at login
 - [ ] Game begins
 - [ ] Game finishes
-- [ ] A card is drawn (maybe an effect per card value)
+- [x] A card is drawn
+- [ ] Value of card drawn
 - [ ] All aces have been drawn
 - [ ] Last round begins
 - [ ] Last round intense music (a la Mario Kart)
