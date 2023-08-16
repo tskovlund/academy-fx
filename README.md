@@ -40,4 +40,6 @@ Ideas for easter eggs:
   - Digital/Futuristic/Reverb (default)
   - Analogue/Samples/Dry
   - Fun
+  - Legacy
+  - Old
 - Option to disable specific effects or groups/layers of effects.
