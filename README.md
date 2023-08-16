@@ -1,7 +1,10 @@
 # Academy FX
+Sound effects for the [new front-end implementation](https://github.com/beeracademy/beta-game) of the [Academy](https://academy.beer) game.
+
+Browse and listen to currently available effects at <https://tskovlund.github.io/academy-fx>.
 
 ## TODOs
-The following is a semi-prioritized todo list of sounds to be produced for the [new front-end implementation](https://github.com/beeracademy/beta-game) of the [Academy](https://academy.beer) game.
+The following is a semi-prioritized todo list of sounds to be produced.
 
 - [x] Shuffling of players at login
 - [ ] Game begins
