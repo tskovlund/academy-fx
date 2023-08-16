@@ -13,7 +13,7 @@ The following is a semi-prioritized todo list of sounds to be produced.
   - [ ] Legacy
   - [ ] Old
 - Game begins
-  - [ ] Digital
+  - [x] Digital
   - [ ] Analogue
   - [ ] Fun
   - [ ] Legacy
