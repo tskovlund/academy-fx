@@ -32,7 +32,7 @@ The effects are organized in several sound packages/themes to accommodate player
 | Ultra kill | `kill_ultra` | | | | ✅ | |
 | All aces have been drawn | `all_aces` | | | | | |
 | Extra chug | `chug_extra` | | | | ✅ | |
-| Chugging music | `chug[_variant]` | | | | ✅ `bubbi_fuve` | |
+| Chugging music | `chug[_variant]` | | | | ✅ `bubbi_fuve` <br> ✅ `big_chungus` <br> ✅ `mimimi` <br> ✅ `mimimi_spedup` | |
 | Insane chug | `chug_insane` | | | | ✅ | |
 | Fast chug | `chug_fast` | | | | ✅ | |
 | Normal chug | `chug_normal` | | | | ✅ | |
@@ -63,3 +63,5 @@ The effects are organized in several sound packages/themes to accommodate player
 | Special anniversary (mod 100) | `anniversary` | | | | | |
 | It's not a dick | `dick` | | | | ✅ | |
 | Old | `old` | | | | ✅ | |
+| Benjamin | `benjamin` | | | | ✅ | |
+| Ole Vedel | `ole_vedel` | | | | ✅ | |
