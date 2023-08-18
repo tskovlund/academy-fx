@@ -17,8 +17,8 @@ The effects are organized in several sound packages/themes to accommodate player
 | Effect | Slug | Digital | Analogue | Fun | Legacy | Old |
 | ------ | ---- | ------- | -------- | --- | ------ | --- |
 | Lobby music | `lobby` | | | | ✅ | |
-| Login success | `login_success` | | | | | |
-| Login error | `login_error` | | | | | |
+| Login success | `login_success` | ✅ | | | | |
+| Login error | `login_error` | ✅ | | | | |
 | Shuffling of players at login | `shuffle` | ✅ | | | ✅ | |
 | Shuffle done | `shuffle_done` | Not supported (part of `shuffle`). | | | ✅ | |
 | Game starts | `game_start` | ✅ | | | ✅ | |
