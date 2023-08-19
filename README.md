@@ -31,7 +31,7 @@ The effects are organized in several sound packages/themes to accommodate player
 | Game starts | `game_start` | ✅ | | | ✅ | |
 | Game finishes | `game_finish` | ✅ | | | ✅ | |
 | A card is drawn | `draw_card` | ✅ | | | | |
-| Value of card drawn | `draw_<value>` | | | | ✅ `ace` | |
+| Value of card drawn | `draw_<value>` | ✅ `two` <br> ✅ `three` <br> ✅ `four` <br> ✅ `five` <br> ✅ `six` <br> ✅ `seven` <br> ✅ `eight` <br> ✅ `nine` <br> ✅ `ten` <br> ✅ `jack` <br> ✅ `queen` <br> ✅ `king` <br> ✅ `ace` | | | ✅ `ace` | |
 | Double kill | `kill_double` | | | | ✅ | |
 | Mega kill | `kill_mega` | | | | ✅ | |
 | Monster kill | `kill_monster` | | | | ✅ | |
