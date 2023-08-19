@@ -1,0 +1,7 @@
+#!/bin/sh
+echo
+git add index.html
+mv .git/hooks/post-commit .git/hooks/post-commit.disabled
+git commit --amend -C HEAD --no-verify
+mv .git/hooks/post-commit.disabled .git/hooks/post-commit
+exit

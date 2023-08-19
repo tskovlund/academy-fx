@@ -3,6 +3,13 @@ Sound effects for the [new front-end implementation](https://github.com/beeracad
 
 Browse and listen to currently available effects at <https://tskovlund.github.io/academy-fx>.
 
+## Setup
+Add pre-commit and post-commit hooks to automatically generate `index.html` and add it to the commit:
+
+```$ ln -s -f ../../pre-commit .git/hooks/pre-commit```
+
+```$ ln -s -f ../../post-commit .git/hooks/post-commit```
+
 ## List of effects
 The following section gives an overview of effects already produced and to be produced.
 

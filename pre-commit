@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+
+import os
+
+page_name = "index.html"
+
+if __name__ == "__main__":
+    with open(page_name, "w") as page:
+        page.write("""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Academy FX</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>""")
+        for dir in sorted([entry for entry in os.listdir(".") if not entry.startswith(".") and os.path.isdir(os.path.join(".", entry))]):
+            page.write(f"<h1>{dir.capitalize()}</h1>")
+            page.write(
+                "<table><thead><tr><th>Title</th><th>Audio</th></tr></thead>")
+            page.write("<tbody>")
+            for file in sorted(os.listdir(dir)):
+                type = file.split(".")[-1]
+                if type in {"wav", "mp3", "ogg"}:
+                    page.write(f"<tr><td>{file}</td>")
+                    page.write(f"""<td><audio controls>
+<source src="https://raw.githubusercontent.com/tskovlund/academy-fx/main/{dir}/{file}" type="audio/{type}">
+Audio playback is not supported by your browser.
+</audio></td></tr>""")
+            page.write("</tbody></table>")
+        page.write("</body></html>")
