@@ -32,11 +32,12 @@ The effects are organized in several sound packages/themes to accommodate player
 | Game finishes | `game_finish` | ✅ | | | ✅ | |
 | A card is drawn | `draw_card` | ✅ | | | | |
 | Value of card drawn | `draw_<value>` | ✅ `two` <br> ✅ `three` <br> ✅ `four` <br> ✅ `five` <br> ✅ `six` <br> ✅ `seven` <br> ✅ `eight` <br> ✅ `nine` <br> ✅ `ten` <br> ✅ `jack` <br> ✅ `queen` <br> ✅ `king` <br> ✅ `ace` | | | ✅ `ace` | |
-| Double kill | `kill_double` | | | | ✅ | |
-| Mega kill | `kill_mega` | | | | ✅ | |
-| Monster kill | `kill_monster` | | | | ✅ | |
-| Multi kill | `kill_multi` | | | | ✅ | |
-| Ultra kill | `kill_ultra` | | | | ✅ | |
+| Double kill | `kill_double` | ✅ | | | ✅ | |
+| Triple kill | `kill_triple` | ✅ | | | ✅ | |
+| Mega kill | `kill_mega` | ✅ | | | ✅ | |
+| Monster kill | `kill_monster` | ✅ | | | ✅ | |
+| Multi kill | `kill_multi` | Not supported | | | ✅ | |
+| Ultra kill | `kill_ultra` | ✅| | | ✅ | |
 | All aces have been drawn | `all_aces` | | | | | |
 | Extra chug | `chug_extra` | | | | ✅ | |
 | Chugging music | `chug[_variant]` | | | | ✅ `bubbi_fuve` <br> ✅ `big_chungus` <br> ✅ `mimimi` <br> ✅ `mimimi_spedup` | |
