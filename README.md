@@ -23,23 +23,23 @@ The effects are organized in several sound packages/themes to accommodate player
 
 | Effect | Slug | Digital | Analogue | Fun | Legacy | Old |
 | ------ | ---- | ------- | -------- | --- | ------ | --- |
-| Lobby music | `lobby` | | | | ✅ | |
-| Login success | `login_success` | ✅ | | | | |
-| Login error | `login_error` | ✅ | | | | |
-| Shuffling of players at login | `shuffle` | ✅ | | | ✅ | |
-| Shuffle done | `shuffle_done` | Not supported (part of `shuffle`). | | | ✅ | |
-| Game starts | `game_start` | ✅ | | | ✅ | |
-| Game finishes | `game_finish` | ✅ | | | ✅ | |
-| A card is drawn | `draw_card` | ✅ | | | | |
-| Value of card drawn | `draw_<value>` | ✅ `two` <br> ✅ `three` <br> ✅ `four` <br> ✅ `five` <br> ✅ `six` <br> ✅ `seven` <br> ✅ `eight` <br> ✅ `nine` <br> ✅ `ten` <br> ✅ `jack` <br> ✅ `queen` <br> ✅ `king` <br> ✅ `ace` | | | ✅ `ace` | |
-| Double kill | `kill_double` | ✅ | | | ✅ | |
-| Triple kill | `kill_triple` | ✅ | | | ✅ | |
-| Mega kill | `kill_mega` | ✅ | | | ✅ | |
-| Monster kill | `kill_monster` | ✅ | | | ✅ | |
-| Multi kill | `kill_multi` | Not supported | | | ✅ | |
-| Ultra kill | `kill_ultra` | ✅| | | ✅ | |
-| All aces have been drawn | `all_aces` | | | | | |
+| Lobby music | `lobby` | | | | ✅ | ✅ |
+| Login success | `login_success` | ✅ | | | | ✅|
+| Login error | `login_error` | ✅ | | | | ✅ |
+| Shuffling of players at login | `shuffle` | ✅ | | | ✅ | ✅ |
+| Shuffle done | `shuffle_done` | Not supported (part of `shuffle`) | | | ✅ | ✅ |
+| Game starts | `game_start` | ✅ | | | ✅ | ✅ |
+| Game finishes | `game_finish` | ✅ | | | ✅ | ✅ |
+| A card is drawn | `draw_card` | Not supported | | | | Not supported |
+| Value of card drawn | `draw_[suit_]<value>` | ✅ `two` <br> ✅ `three` <br> ✅ `four` <br> ✅ `five` <br> ✅ `six` <br> ✅ `seven` <br> ✅ `eight` <br> ✅ `nine` <br> ✅ `ten` <br> ✅ `jack` <br> ✅ `queen` <br> ✅ `king` <br> ✅ `ace` | | | ✅ `ace` | ✅ `diamond_two` <br> ✅ `diamond_three` <br> ✅ `diamond_four` <br> ✅ `diamond_five` <br> ✅ `diamond_six` <br> ✅ `diamond_seven` <br> ✅ `diamond_eight` <br> ✅ `diamond_nine` <br> ✅ `diamond_ten` <br> ✅ `diamond_jack` <br> ✅ `diamond_queen` <br> ✅ `diamond_king` <br> ✅ `spade_two` <br> ✅ `spade_three` <br> ✅ `spade_four` <br> ✅ `spade_five` <br> ✅ `spade_six` <br> ✅ `spade_seven` <br> ✅ `spade_eight` <br> ✅ `spade_nine` <br> ✅ `spade_ten` <br> ✅ `spade_jack` <br> ✅ `spade_queen` <br> ✅ `spade_king` <br> ✅ `heart_two` <br> ✅ `heart_three` <br> ✅ `heart_four` <br> ✅ `heart_five` <br> ✅ `heart_six` <br> ✅ `heart_seven` <br> ✅ `heart_eight` <br> ✅ `heart_nine` <br> ✅ `heart_ten` <br> ✅ `heart_jack` <br> ✅ `heart_queen` <br> ✅ `heart_king` <br>  ✅ `club_two` <br> ✅ `club_three` <br> ✅ `club_four` <br> ✅ `club_five` <br> ✅ `club_six` <br> ✅ `club_seven` <br> ✅ `club_eight` <br> ✅ `club_nine` <br> ✅ `club_ten` <br> ✅ `club_jack` <br> ✅ `club_queen` <br> ✅ `club_king` <br> ✅ `ace` <br> |
+| Double kill | `kill_double` | ✅ | | | ✅ | ✅ |
+| Triple kill | `kill_triple` | ✅ | | | ✅ | ✅ |
+| Ultra kill | `kill_ultra` | ✅| | | ✅ | ✅ |
+| Mega kill | `kill_mega` | ✅ | | | ✅ | ✅ |
+| Monster kill | `kill_monster` | ✅ | | | ✅ | ✅ |
+| Multi kill | `kill_multi` | Not supported | | | ✅ | Not supported |
 | Extra chug | `chug_extra` | | | | ✅ | |
+| All aces have been drawn | `all_aces` | | | | | |
 | Chugging music | `chug[_variant]` | | | | ✅ `bubbi_fuve` <br> ✅ `big_chungus` <br> ✅ `mimimi` <br> ✅ `mimimi_spedup` | |
 | Insane chug | `chug_insane` | | | | ✅ | |
 | Fast chug | `chug_fast` | | | | ✅ | |
